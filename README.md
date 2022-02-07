@@ -9,7 +9,7 @@ Utilizes the [Render-CRLF](https://github.com/medo64/Render-CRLF)
 ### Settings.json
 add
 ```json
-"editor.renderWhitespace": "all",
+"editor.renderWhitespace": "trailing",
 "code-eol.newlineCharacter": "$",
 "code-eol.returnCharacter": "$",
 "code-eol.crlfCharacter": "$",
