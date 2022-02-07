@@ -46,5 +46,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./visual-studio-default-dark---joachimflottorp-0.0.2.vsix
         asset_name: visual-studio-default-dark---joachimflottorp-0.0.2.vsix
         asset_content_type: application/zip
