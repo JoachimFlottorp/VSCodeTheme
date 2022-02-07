@@ -29,23 +29,11 @@ jobs:
     - run: npm run package
     - run: ls -lr
     
-  create-release:
-    needs: build
-    runs-on: ubuntu-latest
-    
-    steps: 
-     - name: Release
-       id: create_release
-       uses: actions/download-artifact@v2.1.0
-       with:
-         name: visual-studio-default-dark---joachimflottorp-0.0.2.vsix
-         
-     - name: Upload release asset
-       uses: actions/upload-release-asset@v1.0.2
-       env:
+    - name: Create Release
+      uses: actions/upload-release-asset@v1.0.2
+      env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-       with:
+      with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_pat: ./xd/visual-studio-default-dark---joachimflottorp-0.0.2.vsix
         asset_name: visual-studio-default-dark---joachimflottorp-0.0.2.vsix
         asset_content_type: application/zip
