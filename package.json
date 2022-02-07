@@ -7,7 +7,7 @@
         "url": "https://github.com/JoachimFlottorp/VSCodeTheme"
     },
     "engines": {
-        "vscode": "^1.64.0"
+        "vscode": "^1.63.0"
     },
     "categories": [
         "Themes"
