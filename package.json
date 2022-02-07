@@ -1,8 +1,8 @@
 {
-    "name": "visual-studio-default-dark---modified",
-    "displayName": "Visual studio Default Dark + Modified",
-    "description": "Modified version of the default Visual Studio Default Dark + to fit my color likings",
-    "version": "0.0.1",
+    "name": "visual-studio-default-dark---joachimflottorp",
+    "displayName": "Visual studio Default Dark+ Modified",
+    "description": "Modified version of the default Visual Studio Default Dark+ to fit my color likings",
+    "version": "0.0.2",
     "repository": {
         "url": "https://github.com/JoachimFlottorp/VSCodeTheme"
     },
