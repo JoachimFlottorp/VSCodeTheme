@@ -38,7 +38,6 @@ jobs:
        uses: actions/download-artifact@v2.1.0
        with:
          name: visual-studio-default-dark---joachimflottorp-0.0.2.vsix
-         path: ~/work/VSCodeTheme/VSCodeTheme/
          
      - name: Upload release asset
        uses: actions/upload-release-asset@v1.0.2
