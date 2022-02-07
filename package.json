@@ -1,0 +1,30 @@
+{
+    "name": "visual-studio-default-dark---modified",
+    "displayName": "Visual studio Default Dark + Modified",
+    "description": "Modified version of the default Visual Studio Default Dark + to fit my color likings",
+    "version": "0.0.1",
+    "repository": {
+        "url": "https://github.com/JoachimFlottorp/VSCodeTheme"
+    },
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Visual-Studio-Dark+-JoachimFlottorp",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Visual-Studio-Dark+-JoachimFlottorp-color-theme.json"
+            }
+        ]
+    },
+    "scripts": {
+        "package": "vsce package"
+    },
+    "devDependencies": {
+        "vsce": "^2.6.7"
+    }
+}
